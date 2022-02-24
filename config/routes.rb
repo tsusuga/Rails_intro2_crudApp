@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   get 'board/index'
   get 'board/show'
+  get 'board/create'
+  get 'board/new'
+  get 'board/destroy'
+  get 'board/index'
+  get 'board/show'
   get 'board/new'
   get 'board/create'
   get 'board/edit'
